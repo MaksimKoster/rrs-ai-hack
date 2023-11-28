@@ -48,6 +48,7 @@ function checkVideoStatus(videoId) {
     .catch(error => console.error('Error:', error));
 }
 
+
 function getVideoParams(videoId) {
     fetch('/api/video_params', {
         method: 'POST',
